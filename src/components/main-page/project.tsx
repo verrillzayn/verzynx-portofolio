@@ -39,7 +39,7 @@ export default function Project({
           <ul className="mt-4 flex flex-wrap gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
-                className="rounded-full bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white dark:text-white/70"
+                className="rounded-full bg-foreground/70 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-background"
                 key={index}
               >
                 {tag}
@@ -52,8 +52,8 @@ export default function Project({
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
-          className="absolute -right-40 top-8 hidden w-[28.25rem] rounded-t-lg shadow-2xl transition
-        group-even:-left-40 
+          className="absolute -right-28 top-8 hidden w-[28.25rem] rounded-t-lg shadow-2xl transition
+        group-even:-left-28 
         group-even:right-[initial]
         group-hover:-translate-x-3
         group-hover:translate-y-3

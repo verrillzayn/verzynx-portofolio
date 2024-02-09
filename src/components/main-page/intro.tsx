@@ -30,7 +30,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
+              src="/verzynx.jpeg"
               alt="Ricardo portrait"
               width="192"
               height="192"
@@ -41,7 +41,7 @@ export default function Intro() {
           </motion.div>
 
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="absolute -bottom-1 -right-1 text-4xl"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -61,11 +61,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Ricardo.</span> I&apos;m a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Hello, I&apos;m Verrill.</span> I&apos;m a{" "}
+        <span className="font-bold">full-stack developer</span> that enjoy
+        building{" "}
+        <span className="italic">sites, apps, and some Backend stuff</span>. My
+        focus is <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
       <motion.div
@@ -90,7 +90,7 @@ export default function Intro() {
 
         <a
           className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
-          href="/CV.pdf"
+          href="/CV-verynx.pdf"
           download
         >
           Download CV{" "}
@@ -99,7 +99,7 @@ export default function Intro() {
 
         <a
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="https://linkedin.com/in/verrill-zain"
           target="_blank"
         >
           <LinkedInLogoIcon />
@@ -107,7 +107,7 @@ export default function Intro() {
 
         <a
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
-          href="https://github.com"
+          href="https://github.com/verrillzayn"
           target="_blank"
         >
           <GitHubLogoIcon />

@@ -87,37 +87,8 @@ export const experiencesData: ExperiencesData = [
 
 export const projectsData = [
   {
-    title: "Inquive Ai",
-    description:
-      "Inquive is a fullstack app that allows user chat with their PDF's. Upload a documents, compose prompts, and let our AI orchestrate a unique dialogue.",
-    tags: [
-      "React",
-      "Next.js",
-      "PostgreSQL",
-      "Tailwind",
-      "Prisma",
-      "OpenAi",
-      "TRPC",
-    ],
-    imageUrl: inquiveImg,
-  },
-  {
-    title: "Vrite",
-    description:
-      "The connected workspace, now get Better and Faster. Vrite is note maker app where you can create note realtime and publish it.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Next.js",
-      "Tailwind",
-      "Convex",
-      "Zustand",
-      "RealtimeApp",
-    ],
-    imageUrl: vriteImg,
-  },
-  {
     title: "Vello",
+    url: "https://vello-production.up.railway.app/",
     description:
       "Vello is an marketplace for digital assets. Build with payload, Nextjs 14 custom server with express and TRPC",
     tags: [
@@ -132,6 +103,39 @@ export const projectsData = [
       "TRPC",
     ],
     imageUrl: velloImg,
+  },
+  {
+    title: "Inquive Ai",
+    url: "https://inquive.vercel.app",
+    description:
+      "Inquive is a fullstack app that allows user chat with their PDF's. Upload a documents, compose prompts, and let our AI orchestrate a unique dialogue.",
+    tags: [
+      "React",
+      "Next.js",
+      "PostgreSQL",
+      "Tailwind",
+      "Prisma",
+      "OpenAi",
+      "TRPC",
+    ],
+    imageUrl: inquiveImg,
+  },
+
+  {
+    title: "Vrite",
+    url: "https://vrite.vercel.app/",
+    description:
+      "The connected workspace, now get Better and Faster. Vrite is note maker app where you can create note realtime and publish it.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Convex",
+      "Zustand",
+      "RealtimeApp",
+    ],
+    imageUrl: vriteImg,
   },
 ] as const;
 

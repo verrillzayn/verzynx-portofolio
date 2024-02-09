@@ -88,14 +88,17 @@ export default function Intro() {
           <ArrowRight className="opacity-70 transition group-hover:translate-x-1" />
         </Link>
 
-        <a
+        <Link
+          href="/CV-verzynx.pdf"
           className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
-          href="/CV-verynx.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           download
+          locale={false}
         >
           Download CV{" "}
           <Download className="opacity-60 transition group-hover:translate-y-1" />
-        </a>
+        </Link>
 
         <a
           className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"

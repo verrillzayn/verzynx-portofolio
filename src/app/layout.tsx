@@ -8,6 +8,7 @@ import ThemeToogle from "@/components/theme-toggle";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/sonner";
+import { Analytics } from "@vercel/analytics/react";
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
+            <Analytics />
             <Footer />
             <Toaster />
             <ThemeToogle />

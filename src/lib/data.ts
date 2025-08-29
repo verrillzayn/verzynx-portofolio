@@ -1,7 +1,9 @@
-import { GraduationCap, Atom, Briefcase, Play } from "lucide-react";
+import { GraduationCap, Atom, Play, Briefcase, AppWindow } from "lucide-react";
 import vriteImg from "@public/vrite.png";
 import velloImg from "@public/vello.png";
 import inquiveImg from "@public/inquive.png";
+import landingPage from "@public/landing-page-porto.png";
+import apsmksi from "@public/apsmksi.png";
 import React from "react";
 import {
   FaCss3Alt,
@@ -22,7 +24,12 @@ import {
   SiTailwindcss,
   SiTrpc,
   SiZod,
+  SiShadcnui,
+  SiBun,
+  SiDocker,
+  SiDrizzle
 } from "react-icons/si";
+import { FiFramer } from "react-icons/fi";
 
 export const links = [
   {
@@ -83,26 +90,48 @@ export const experiencesData: ExperiencesData = [
     icon: React.createElement(Atom),
     date: "2023",
   },
+  {
+    title: "Full Stack Developer (International Internship)",
+    location: "Betr Beta (Singapore)",
+    description:
+      "Contributed to full stack development for a Singapore-based startup, including user authentication,dashboard features, and backend API integration. Worked collaboratively in an agile environment and cross-functional team.",
+    icon: React.createElement(Briefcase),
+    date: "May 2024",
+  },
+  {
+    title: "Full Stack Developer (Project-Based)",
+    location: "APSMKSI (UIN SGD Bandung)",
+    description:
+      "Built, deployed, and Maintaining the official website for a national academic association, Association of Islamic Financial Management Study Programs (APSMKSI), comprising 14 universities across Indonesia. Developed and deployed via Virtual Private Server (VPS).",
+    icon: React.createElement(AppWindow),
+    date: "Nov 2024",
+  },
+  {
+    title: "Junior Front-End Developer & Automation Engineer",
+    location: "Hedra.id (Jakarta)",
+    description:
+      "Responsible for developing responsive user interfaces using React and Next.js for a growing tech media startup. Also designed and implemented workflow automation systems using Zapier and Make.com.",
+    icon: React.createElement(Briefcase),
+    date: "May 2024",
+  },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Vello",
-    url: "https://vello-production.up.railway.app/",
+    title: "APSMKSI",
+    url: "https://asprodimks.com/",
     description:
-      "Vello is an marketplace for digital assets. Build with payload, Nextjs 14 custom server with express and TRPC",
+      "APSMKSI is an official website for a national academic association. Developed using modern web technologies and deployed it via VPS.",
     tags: [
       "React",
       "Next.js",
-      "TypeScript",
-      "MongoDB",
+      "PostgreSQL",
       "Tailwind",
-      "Payload",
-      "express",
+      "Drizzle",
+      "Docker",
       "Zod",
-      "TRPC",
     ],
-    imageUrl: velloImg,
+    imageUrl: apsmksi,
   },
   {
     title: "Inquive Ai",
@@ -120,7 +149,6 @@ export const projectsData = [
     ],
     imageUrl: inquiveImg,
   },
-
   {
     title: "Vrite",
     url: "https://vrite.vercel.app/",
@@ -136,6 +164,40 @@ export const projectsData = [
       "RealtimeApp",
     ],
     imageUrl: vriteImg,
+  },
+  {
+    title: "Company Landing Page",
+    url: "https://porto-landing-page.vercel.app/",
+    description:
+      "A Beautiful Saas Landing Page with stunning animation and motion",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Framer Motion",
+      "Saas",
+      "Landing Page",
+    ],
+    imageUrl: landingPage,
+  },
+  {
+    title: "Vello",
+    url: "https://vello-production.up.railway.app/",
+    description:
+      "Vello is an marketplace for digital assets. Build with payload, Nextjs 14 custom server with express and TRPC",
+    tags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Tailwind",
+      "Payload",
+      "express",
+      "Zod",
+      "TRPC",
+    ],
+    imageUrl: velloImg,
   },
 ] as const;
 
@@ -181,8 +243,16 @@ export const skillsData = [
     icon: SiTailwindcss,
   },
   {
+    label: "Shadcn UI",
+    icon: SiShadcnui ,
+  },
+  {
     label: "Prisma",
     icon: SiPrisma,
+  },
+  {
+    label: "Drizzle",
+    icon: SiDrizzle,
   },
   {
     label: "Zod",
@@ -207,5 +277,17 @@ export const skillsData = [
   {
     label: "PostgreSQL",
     icon: BiLogoPostgresql,
+  },
+  {
+    label: "Framer Motion",
+    icon: FiFramer ,
+  },
+  {
+    label: "Bun",
+    icon: SiBun ,
+  },
+  {
+    label: "Docker",
+    icon: SiDocker ,
   },
 ] as const;

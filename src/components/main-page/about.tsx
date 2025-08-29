@@ -29,7 +29,7 @@ export default function About() {
         life philosophy &apos;&apos;Never stop learning&apos;&apos;. My core
         stack is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React, Next.js, Tailwind, and PostgreSQL or MongoDB
         </span>
         . I am also familiar with TypeScript and Prisma. I am always looking to
         learn new technologies.

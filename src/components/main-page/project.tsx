@@ -57,7 +57,7 @@ export default function Project({
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
-          className="absolute -right-28 top-8 hidden w-[28.25rem] rounded-t-lg shadow-2xl transition
+          className="absolute -right-28 top-8 hidden w-[28.25rem] rounded-lg shadow-2xl transition
         group-even:-left-28 
         group-even:right-[initial]
         group-hover:-translate-x-3

@@ -119,7 +119,7 @@ export const experiencesData: ExperiencesData = [
 export const projectsData = [
   {
     title: "APSMKSI",
-    url: "https://asprodimks.com/",
+    url: "https://demo-apsmksi.verzynx.me",
     description:
       "APSMKSI is an official website for a national academic association. Developed using modern web technologies and deployed it via VPS.",
     tags: [

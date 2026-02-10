@@ -4,6 +4,7 @@ import velloImg from "@public/vello.png";
 import inquiveImg from "@public/inquive.png";
 import landingPage from "@public/landing-page-porto.png";
 import apsmksi from "@public/apsmksi.png";
+import valance from "@public/valance.png";
 import React from "react";
 import {
   FaCss3Alt,
@@ -118,6 +119,23 @@ export const experiencesData: ExperiencesData = [
 
 export const projectsData = [
   {
+    title: "Valance",
+    url: "https://mini-erp-v2.verzynx.fun/",
+    description:
+      "Valance is a lean ERP system. Manage your finances, stocks, and operations without the complexity of traditional software.",
+    tags: [
+      "ERP",
+      "Next.js",
+      "PostgreSQL",
+      "Shadcn/ui",
+      "Motion",
+      "Drizzle",
+      "Github Actions",
+      "VPS",
+    ],
+    imageUrl: valance,
+  },
+  {
     title: "APSMKSI",
     url: "https://demo-apsmksi.verzynx.me",
     description:
@@ -183,7 +201,7 @@ export const projectsData = [
   },
   {
     title: "Vello",
-    url: "https://vello-production.up.railway.app/",
+    url: "https://github.com/verrillzayn/vello-next-app",
     description:
       "Vello is an marketplace for digital assets. Build with payload, Nextjs 14 custom server with express and TRPC",
     tags: [

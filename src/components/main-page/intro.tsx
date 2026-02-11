@@ -89,7 +89,7 @@ export default function Intro() {
         </Link>
 
         <Link
-          href="/CV-Verrill-2026.pdf"
+          href="/cv-verzynx-upfeb26.pdf"
           className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
           target="_blank"
           rel="noopener noreferrer"

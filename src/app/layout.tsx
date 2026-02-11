@@ -9,6 +9,7 @@ import { ThemeProvider } from "@/components/providers/theme-provider";
 import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/sonner";
 import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -47,6 +48,7 @@ export default function RootLayout({
           </ActiveSectionContextProvider>
         </ThemeProvider>
       </body>
+      <Script src="https://scripts.simpleanalyticscdn.com/latest.js" data-collect-dnt="true" />
     </html>
   );
 }

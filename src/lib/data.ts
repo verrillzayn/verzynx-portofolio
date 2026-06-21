@@ -120,7 +120,7 @@ export const experiencesData: ExperiencesData = [
 export const projectsData = [
   {
     title: "Valance",
-    url: "https://mini-erp-v2.verzynx.fun/",
+    url: "https://valance.verzynx.tech",
     description:
       "Valance is a lean ERP system. Manage your finances, stocks, and operations without the complexity of traditional software.",
     tags: [
